@@ -49,8 +49,8 @@ def check_token_used(token_to_check, used_tokens_file):
     return False
 
 # Example usage
-token_file = "/home/bullshit/Documents/badmus/Token.txt"  # Replace with the path to your token file
-used_tokens_file = "/home/bullshit/Documents/badmus/used_token_file.txt"  # Replace with the path to your used tokens record file
+token_file = "Token.txt"  # Replace with the path to your token file
+used_tokens_file = "used_token_file.txt"  # Replace with the path to your used tokens record file
 username = input("Enter your username: ")  # Modified to accept username input
 
 # Generate the user ID from the username
